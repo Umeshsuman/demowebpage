@@ -1,0 +1,73 @@
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        marquee{
+            background-color: darkgray;
+        }
+        .card-body{
+            text-align: center;
+            /* margin-top: 20px;
+            margin-bottom: 20px; */
+            min-height: 100px;
+        }
+        .card-body p{
+            font-size: small;
+            font-weight: 300;
+        }
+        .card-body h5 {
+            font-size: 1.4rem;
+            margin-top: 0;
+        }
+        .desktop-card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+            transition: transform 250ms;  
+        }
+        .desktop-card:hover {
+                transform: translateY(-10px);
+        }
+        .card-img-top{
+            max-width: 150px;
+        }
+        a{
+            text-decoration: none;
+            font-weight: 300;
+            font-size: 14px;
+            color: black;
+        }
+        .left {
+            width: 30px;
+            height: 90px;
+            float: left;
+        }
+        .left img{
+            float: left;
+        }
+        .center-text{
+            margin:30px auto;
+        }
+        .hr-footer{
+            width: 100%;
+        }
+        .hr-card{
+            width: 80%;
+            margin: auto;
+        }
+        /* footer {
+            margin-top: 4rem;
+        } */
+        footer h5 {
+            margin-bottom: 20px;
+
+        }
+        .contact p{
+            font-weight: 400;
+        }
+        .address{
+            background-color: rgb(180, 168, 168);
+            border-radius:5px;
+        }
